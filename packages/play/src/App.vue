@@ -2,7 +2,16 @@
 </script>
 
 <template>
-  <m-button type="primary" size="small">按钮</m-button>
+  12
+  <m-icon icon="spinner" />
+  <m-button type="primary" size="large" icon="search" useThrottle >按钮</m-button>
+
+  <m-button-group>
+    <m-button type="primary" size="large" icon="search" useThrottle >按钮</m-button>
+    <m-button type="primary" size="large" icon="search" useThrottle >按钮</m-button>
+    <m-button type="primary" size="large" icon="search" useThrottle >按钮</m-button>
+  </m-button-group>
+
 </template>
 
 <style scoped>

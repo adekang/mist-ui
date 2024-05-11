@@ -1,6 +1,8 @@
-import {MButton}  from '@mist-ui/components'
+import {MButton,MButtonGroup,MIcon}  from '@mist-ui/components'
 import type {Plugin} from 'vue'
 
 export default [
-  MButton
+  MButton,
+  MButtonGroup,
+  MIcon
 ] as Plugin[]
